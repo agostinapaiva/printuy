@@ -1,0 +1,22 @@
+AUDITORÍA DE PRINT.UY — ACTUALIZACIÓN
+
+Cambios aplicados:
+- Actualizado el número de WhatsApp a +598 92 263 435 (derivado del número local 092263435).
+- Añadido el enlace oficial de Instagram indicado: https://www.instagram.com/print.uyy/
+- Eliminado el enlace de Facebook que apuntaba a #, ya que no se proporcionó una URL real.
+- Los enlaces externos se abren en una pestaña nueva y usan rel="noopener noreferrer" donde corresponde.
+- Añadidos enlaces accesibles con aria-label en los iconos de redes sociales y el botón flotante de WhatsApp.
+- Ocultada la tabla de medidas que estaba asignada a la Remera Unisex, porque el archivo disponible corresponde a una camiseta de fútbol infantil y podía confundir.
+- Añadidos Instagram y WhatsApp al pie de página de la página de producto.
+
+Comprobaciones automáticas:
+- 24 productos definidos en el catálogo.
+- Los archivos JavaScript pasan node --check (sintaxis válida).
+- Todas las referencias de imagen del catálogo verificadas por nombre de archivo existen.
+- Las categorías de filtros tienen mapeo para Remeras, Buzos, Uniforme, Tazas y Accesorios.
+
+Pendientes / observaciones:
+- Confirmar en un celular y computadora que Instagram y WhatsApp abren correctamente desde los navegadores que usa el público.
+- Los precios, stock, talles, colores y la correspondencia visual de cada foto deben validarse con el catálogo real.
+- La tabla de medidas asignada a cada producto se debe revisar visualmente: el código puede apuntar a un archivo existente, pero no garantiza que sea la tabla correcta para ese producto.
+- Facebook se omitió por ahora porque no se indicó el enlace de la página.
